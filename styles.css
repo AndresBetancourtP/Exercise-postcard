@@ -8,7 +8,7 @@ body {
 }
 
 p {
-	color: blue;
+	color: rgb(0, 0, 0);
 }
 
 .postcard {
@@ -27,5 +27,33 @@ p {
 }
 
 .postcard-header h1 {
-	width: 50;
+	width: 500px;
+	margin: 5px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border: none;
+	border-bottom: rgb(34, 34, 34);
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(185, 185, 185);
+	padding: 5px;
 }
